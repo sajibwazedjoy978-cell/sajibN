@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  
+  <!-- Primary Meta Tags -->
+  <title>M. Sajib — Official Personal Website</title>
+  <meta name="title" content="M. Sajib — Official Personal Website" />
+  <meta name="description" content="Official personal website of M. Sajib — entrepreneur, app founder, content creator and future business owner. Building Ideas. Creating Impact." />
+  <meta name="author" content="M. Sajib" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sajib.me/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sajib.me/" />
+  <meta property="og:title" content="M. Sajib — Official Personal Website" />
+  <meta property="og:description" content="Official personal website of M. Sajib — entrepreneur, app founder, content creator and future business owner." />
+  <meta property="og:image" content="https://sajib.me/assets/images/profile.jpg" />
+  <meta property="og:site_name" content="M. Sajib" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://sajib.me/" />
+  <meta name="twitter:title" content="M. Sajib — Official Personal Website" />
+  <meta name="twitter:description" content="Official personal website of M. Sajib — entrepreneur, app founder, content creator and future business owner." />
+  <meta name="twitter:image" content="https://sajib.me/assets/images/profile.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="apple-touch-icon" href="./favicon.svg" />
+
+  <!-- Google Fonts: Inter & Plus Jakarta Sans & Noto Sans Bengali -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+
+  <!-- Schema.org JSON-LD Structured Data for Personal Brand -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "M. Sajib",
+    "url": "https://sajib.me/",
+    "image": "https://sajib.me/assets/images/profile.jpg",
+    "jobTitle": [
+      "Entrepreneur",
+      "App Founder",
+      "Content Creator",
+      "Business Owner"
+    ],
+    "description": "An ambitious creator and future entrepreneur focused on learning, building, and turning meaningful ideas into real-world impact.",
+    "sameAs": [
+      "https://www.facebook.com/sajibnofficial",
+      "https://www.instagram.com/sajib__eth",
+      "https://wa.me/01897874421"
+    ],
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "National University"
+    }
+  }
+  </script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Atmospheric Background Glow -->
+  <div class="bg-ambient" aria-hidden="true">
+    <div class="ambient-glow" style="top: -150px; right: 5%;"></div>
+    <div class="ambient-glow" style="top: 35%; left: -10%;"></div>
+    <div class="ambient-glow" style="top: 70%; right: -5%;"></div>
+  </div>
+
+  <!-- ========================================================================
+       TOP NAVIGATION BAR (Strict 3-Zone Contract)
+       ======================================================================== -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="container navbar-inner">
+      <!-- Zone 1: Brand Wordmark -->
+      <a href="#home" class="nav-brand" aria-label="M. Sajib Official Home">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span data-i18n="nav_brand">M. SAJIB</span>
+      </a>
+
+      <!-- Zone 2: Navigation Links (Desktop) -->
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#home" class="nav-link active" data-i18n="nav_home">Home</a>
+        <a href="#about" class="nav-link" data-i18n="nav_about">About</a>
+        <a href="#journey" class="nav-link" data-i18n="nav_journey">Journey</a>
+        <a href="#what-i-do" class="nav-link" data-i18n="nav_what_i_do">What I Do</a>
+        <a href="#projects" class="nav-link" data-i18n="nav_projects">Projects</a>
+        <a href="#business" class="nav-link" data-i18n="nav_business">Business</a>
+        <a href="#media" class="nav-link" data-i18n="nav_media">Media</a>
+        <a href="#achievements" class="nav-link" data-i18n="nav_achievements">Achievements</a>
+        <a href="#gallery" class="nav-link" data-i18n="nav_gallery">Gallery</a>
+        <a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <!-- Zone 3: Language Segmented Switch & Mobile Hamburger -->
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Language Selector">
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-btn" data-lang="bn" aria-pressed="false">বাংলা</button>
+        </div>
+
+        <button type="button" class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="hamburger" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <ul class="mobile-nav-links">
+      <li><a href="#home" class="mobile-nav-link" data-i18n="nav_home">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link" data-i18n="nav_about">About</a></li>
+      <li><a href="#journey" class="mobile-nav-link" data-i18n="nav_journey">Journey</a></li>
+      <li><a href="#what-i-do" class="mobile-nav-link" data-i18n="nav_what_i_do">What I Do</a></li>
+      <li><a href="#education" class="mobile-nav-link" data-i18n="nav_education">Education</a></li>
+      <li><a href="#vision" class="mobile-nav-link" data-i18n="nav_vision">Vision</a></li>
+      <li><a href="#projects" class="mobile-nav-link" data-i18n="nav_projects">Projects</a></li>
+      <li><a href="#business" class="mobile-nav-link" data-i18n="nav_business">Business</a></li>
+      <li><a href="#media" class="mobile-nav-link" data-i18n="nav_media">Media</a></li>
+      <li><a href="#achievements" class="mobile-nav-link" data-i18n="nav_achievements">Achievements</a></li>
+      <li><a href="#gallery" class="mobile-nav-link" data-i18n="nav_gallery">Gallery</a></li>
+      <li><a href="#contact" class="mobile-nav-link" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+
+    <div class="mobile-drawer-footer">
+      <a href="#contact" class="btn btn-primary" style="width: 100%; text-align: center;" data-i18n="hero_btn_connect">Let's Connect</a>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- ======================================================================
+         1. HOME / HERO SECTION
+         ====================================================================== -->
+    <section class="section hero-section" id="home" aria-label="Hero Section">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Copy & Identifiers -->
+          <div class="hero-content">
+            <div class="hero-eyebrow">
+              <span class="pulse-circle" aria-hidden="true"></span>
+              <span data-i18n="hero_eyebrow">Official Personal Brand</span>
+            </div>
+
+            <h1 class="hero-name">M. Sajib</h1>
+
+            <h2 class="hero-tagline" data-i18n="hero_tagline">Building Ideas. Creating Impact.</h2>
+
+            <p class="hero-desc" data-i18n="hero_desc">
+              An ambitious creator and future entrepreneur focused on learning, building, and turning meaningful ideas into real-world impact.
+            </p>
+
+            <!-- Zero-Pill Unboxed Identity Separators -->
+            <div class="hero-identities" aria-label="Current and Future Identity">
+              <span data-i18n="identity_entrepreneur">Entrepreneur</span>
+              <span class="identity-dot" aria-hidden="true">/</span>
+              <span data-i18n="identity_app_founder">App Founder</span>
+              <span class="identity-dot" aria-hidden="true">/</span>
+              <span data-i18n="identity_content_creator">Content Creator</span>
+              <span class="identity-dot" aria-hidden="true">/</span>
+              <span data-i18n="identity_business_owner">Business Owner</span>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#journey" class="btn btn-primary" data-i18n="hero_btn_journey">Explore My Journey</a>
+              <a href="#contact" class="btn btn-secondary" data-i18n="hero_btn_connect">Let's Connect</a>
+            </div>
+          </div>
+
+          <!-- Right Column: Official Portrait with Subtle Blue Backlight -->
+          <div class="hero-portrait-wrapper">
+            <div class="hero-portrait-card">
+              <div class="portrait-inner">
+                <img 
+                  src="./assets/images/profile.jpg" 
+                  alt="Official Portrait of M. Sajib" 
+                  class="portrait-img" 
+                  width="800" 
+                  height="1000" 
+                  loading="eager"
+                  referrerpolicy="no-referrer"
+                  onerror="this.onerror=null; this.src='./assets/images/profile.jpg';"
+                />
+                <div class="portrait-badge">
+                  <div>
+                    <div class="badge-identity-name">M. Sajib</div>
+                    <div class="badge-identity-status" data-i18n="portrait_badge_sub">Digital Founder & Creator</div>
+                  </div>
+                  <div class="brand-dot" aria-hidden="true"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         2. ABOUT SECTION
+         ====================================================================== -->
+    <section class="section" id="about" aria-label="About Section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow" data-i18n="about_eyebrow">Personal Biography</div>
+          <h2 class="section-title" data-i18n="about_title">About M. Sajib</h2>
+        </div>
+
+        <div class="about-grid">
+          <!-- Portrait Framing -->
+          <div class="about-card-frame">
+            <img 
+              src="./assets/images/profile.jpg" 
+              alt="M. Sajib Profile Portrait" 
+              class="portrait-img" 
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+
+          <!-- Bilingual Authentic Prose -->
+          <div class="about-prose">
+            <p class="about-lead" data-i18n="about_lead">
+              Driven by curiosity, disciplined execution, and a long-term vision to solve meaningful problems.
+            </p>
+            <p class="about-body" data-i18n="about_body_1">
+              Standing at the intersection of modern technology, thoughtful design, and brand architecture, I am actively learning, building, and laying the groundwork for scalable digital products. Rather than claiming premature accolades, my focus is rooted in genuine growth, rapid iteration, and creating authentic value.
+            </p>
+            <p class="about-body" data-i18n="about_body_2">
+              This official digital home serves as my enduring anchor—designed to evolve as I grow from a student into an entrepreneur, app founder, content creator, and business owner.
+            </p>
+
+            <!-- Editable Focus Pillars (No Fake Numbers) -->
+            <div class="about-pillars">
+              <div class="pillar-item">
+                <div class="pillar-label" data-i18n="pillar_ideas">Ideas</div>
+                <div class="pillar-desc" data-i18n="pillar_ideas_val">Continuous ideation & research</div>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-label" data-i18n="pillar_projects">Projects</div>
+                <div class="pillar-desc" data-i18n="pillar_projects_val">Digital apps in architecture</div>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-label" data-i18n="pillar_goals">Goals</div>
+                <div class="pillar-desc" data-i18n="pillar_goals_val">Building scalable ventures</div>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-label" data-i18n="pillar_vision">Vision</div>
+                <div class="pillar-desc" data-i18n="pillar_vision_val">Long-term real-world impact</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. MY JOURNEY SECTION (Vertical Timeline)
+         ====================================================================== -->
+    <section class="section" id="journey" aria-label="Journey Section">
+      <div class="container">
+        <div class="section-header" style="text-align: center; margin-left: auto; margin-right: auto;">
+          <div class="section-eyebrow" data-i18n="journey_eyebrow">Growth Roadmap</div>
+          <h2 class="section-title" data-i18n="journey_title">My Journey</h2>
+          <p class="section-subtitle" style="margin: 0 auto;" data-i18n="journey_sub">
+            A progressive path of exploration, skill acquisition, and relentless builder mindset.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-line" aria-hidden="true"></div>
+
+          <!-- 01 - The Beginning -->
+          <div class="timeline-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-step" data-i18n="journey_01_step">01 — The Beginning</div>
+              <h3 class="timeline-heading" data-i18n="journey_01_title">Curiosity Sparked</h3>
+              <p class="timeline-text" data-i18n="journey_01_text">
+                Discovering the limitless possibilities of digital technology, creative expression, and how software transforms everyday human lives.
+              </p>
+            </div>
+          </div>
+
+          <!-- 02 - Learning -->
+          <div class="timeline-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-step" data-i18n="journey_02_step">02 — Learning</div>
+              <h3 class="timeline-heading" data-i18n="journey_02_title">Disciplined Foundations</h3>
+              <p class="timeline-text" data-i18n="journey_02_text">
+                Immersing in design thinking, software architectures, language, communication, and the mechanics of sustainable enterprises.
+              </p>
+            </div>
+          </div>
+
+          <!-- 03 - Exploring -->
+          <div class="timeline-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-step" data-i18n="journey_03_step">03 — Exploring</div>
+              <h3 class="timeline-heading" data-i18n="journey_03_title">Testing & Experimentation</h3>
+              <p class="timeline-text" data-i18n="journey_03_text">
+                Exploring modern web frameworks, user experience patterns, content strategy, and global business models.
+              </p>
+            </div>
+          </div>
+
+          <!-- 04 - Creating -->
+          <div class="timeline-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-step" data-i18n="journey_04_step">04 — Creating</div>
+              <h3 class="timeline-heading" data-i18n="journey_04_title">Refining Creative Voice</h3>
+              <p class="timeline-text" data-i18n="journey_04_text">
+                Producing engaging digital media, establishing authentic connections, and developing a distinctive creative perspective.
+              </p>
+            </div>
+          </div>
+
+          <!-- 05 - Building -->
+          <div class="timeline-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-step" data-i18n="journey_05_step">05 — Building</div>
+              <h3 class="timeline-heading" data-i18n="journey_05_title">Turning Ideas into Reality</h3>
+              <p class="timeline-text" data-i18n="journey_05_text">
+                Architecting first-generation applications, writing scalable codebases, and preparing launch foundations for future digital brands.
+              </p>
+            </div>
+          </div>
+
+          <!-- 06 - The Future -->
+          <div class="timeline-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-step" data-i18n="journey_06_step">06 — The Future</div>
+              <h3 class="timeline-heading" data-i18n="journey_06_title">Scaling Impact</h3>
+              <p class="timeline-text" data-i18n="journey_06_text">
+                Founding enduring technology businesses, leading high-performing teams, and driving measurable socio-economic progress.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. WHAT I DO SECTION (4 Future-Ready Cards)
+         ====================================================================== -->
+    <section class="section" id="what-i-do" aria-label="What I Do Section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow" data-i18n="what_eyebrow">Core Focus Areas</div>
+          <h2 class="section-title" data-i18n="what_title">What I Do</h2>
+          <p class="section-subtitle" data-i18n="what_sub">
+            Four distinct pillars defining my present work and future entrepreneurial trajectory.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- CARD 01: Entrepreneur -->
+          <div class="service-card">
+            <div class="service-header">
+              <div class="service-number">01</div>
+              <div class="service-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              </div>
+              <h3 class="service-title" data-i18n="card_1_title">Entrepreneur</h3>
+              <p class="service-desc" data-i18n="card_1_desc">
+                Exploring opportunities, solving problems, and turning ideas into meaningful ventures.
+              </p>
+            </div>
+            <div class="service-footer" data-i18n="card_1_footer">Active Ideation & Strategy</div>
+          </div>
+
+          <!-- CARD 02: App Founder -->
+          <div class="service-card">
+            <div class="service-header">
+              <div class="service-number">02</div>
+              <div class="service-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+              </div>
+              <h3 class="service-title" data-i18n="card_2_title">App Founder</h3>
+              <p class="service-desc" data-i18n="card_2_desc">
+                Building useful digital products and exploring technology-driven solutions.
+              </p>
+            </div>
+            <div class="service-footer" data-i18n="card_2_footer">Product Architecture</div>
+          </div>
+
+          <!-- CARD 03: Content Creator -->
+          <div class="service-card">
+            <div class="service-header">
+              <div class="service-number">03</div>
+              <div class="service-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m22 8-6 4 6 4V8Z"/><rect width="14" height="12" x="2" y="6" rx="2"/></svg>
+              </div>
+              <h3 class="service-title" data-i18n="card_3_title">Content Creator</h3>
+              <p class="service-desc" data-i18n="card_3_desc">
+                Creating meaningful content and building a genuine digital presence.
+              </p>
+            </div>
+            <div class="service-footer" data-i18n="card_3_footer">Digital Media & Community</div>
+          </div>
+
+          <!-- CARD 04: Business Owner -->
+          <div class="service-card">
+            <div class="service-header">
+              <div class="service-number">04</div>
+              <div class="service-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/></svg>
+              </div>
+              <h3 class="service-title" data-i18n="card_4_title">Business Owner</h3>
+              <p class="service-desc" data-i18n="card_4_desc">
+                Working toward building sustainable brands and businesses with long-term vision.
+              </p>
+            </div>
+            <div class="service-footer" data-i18n="card_4_footer">Long-Term Venture Vision</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. EDUCATION SECTION
+         ====================================================================== -->
+    <section class="section" id="education" aria-label="Education Section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow" data-i18n="edu_eyebrow">Academic Background</div>
+          <h2 class="section-title" data-i18n="edu_title">Education</h2>
+          <p class="section-subtitle" data-i18n="edu_sub">
+            Fostering analytical rigor, critical thinking, and international communication skills.
+          </p>
+        </div>
+
+        <div class="education-grid">
+          <!-- Current Education (No fake awards/GPA) -->
+          <div class="education-card">
+            <div>
+              <div class="edu-badge" data-i18n="edu_current_tag">Current Academic Pursuit</div>
+              <h3 class="edu-degree" data-i18n="edu_degree">Honours in English</h3>
+              <div class="edu-institution" data-i18n="edu_institution">National University</div>
+            </div>
+            <div class="edu-meta">
+              <span data-i18n="edu_status">Ongoing</span>
+              <span aria-hidden="true">·</span>
+              <span>Language & Critical Discourse</span>
+            </div>
+          </div>
+
+          <!-- Future Editable Slot for Certifications / Advanced Degrees -->
+          <div class="education-card edu-future-slot">
+            <div>
+              <div class="edu-badge" data-i18n="edu_future_tag">Future Specializations</div>
+              <h3 class="edu-degree" data-i18n="edu_future_title">Executive Credentials & Technical Studies</h3>
+              <div class="edu-institution" data-i18n="edu_future_inst">Global Certifications & Advanced Programs</div>
+            </div>
+            <p class="timeline-text" style="margin-top: 10px;" data-i18n="edu_future_desc">
+              Structured slot for upcoming business degrees, software engineering credentials, and founder programs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. VISION SECTION (Full-Width Immersive Section)
+         ====================================================================== -->
+    <section class="vision-banner" id="vision" aria-label="Vision Section">
+      <div class="container vision-container">
+        <div class="section-eyebrow" style="margin-bottom: 20px;" data-i18n="vision_eyebrow">Philosophical North Star</div>
+        <blockquote class="vision-quote" data-i18n="vision_quote">
+          "I believe great things can begin with a simple idea, a clear vision, and the courage to build."
+        </blockquote>
+
+        <div class="vision-pillars" aria-label="Guiding Pillars">
+          <div class="vision-pill"><span data-i18n="vision_p1">Learning</span></div>
+          <div class="vision-pill"><span class="dot">·</span> <span data-i18n="vision_p2">Building</span></div>
+          <div class="vision-pill"><span class="dot">·</span> <span data-i18n="vision_p3">Creating</span></div>
+          <div class="vision-pill"><span class="dot">·</span> <span data-i18n="vision_p4">Growing</span></div>
+          <div class="vision-pill"><span class="dot">·</span> <span data-i18n="vision_p5">Impact</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. PROJECTS SECTION
+         ====================================================================== -->
+    <section class="section" id="projects" aria-label="Projects Section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow" data-i18n="projects_eyebrow">Product Engineering</div>
+          <h2 class="section-title" data-i18n="projects_title">Projects</h2>
+          <p class="section-subtitle" data-i18n="projects_sub">
+            A modular, scalable portfolio framework designed to house upcoming applications, platforms, and open-source tools.
+          </p>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="projects-filter-bar" role="tablist" aria-label="Project Category Filters">
+          <button type="button" class="filter-btn active" data-filter="all" data-i18n="filter_all">All Projects</button>
+          <button type="button" class="filter-btn" data-filter="apps" data-i18n="filter_apps">Web & Mobile Apps</button>
+          <button type="button" class="filter-btn" data-filter="tools" data-i18n="filter_tools">Digital Tools</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 01 (Coming Soon structure) -->
+          <div class="project-card" data-category="apps">
+            <div class="project-thumbnail">
+              <div class="project-thumb-fallback">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                <span>Product Architecture</span>
+              </div>
+              <span class="project-status-tag" data-i18n="status_coming_soon">In Architecture — Coming Soon</span>
+            </div>
+            <div class="project-body">
+              <div class="project-category">Web Application</div>
+              <h3 class="project-name" data-i18n="proj_1_name">Flagship Web Platform</h3>
+              <p class="project-desc" data-i18n="proj_1_desc">
+                Next-generation digital utility designed with focus on clean interaction models and real-time responsiveness.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Cloud Architecture</span>
+              </div>
+              <div class="project-actions">
+                <span class="project-link-btn disabled" data-i18n="btn_view_details">Details Coming Soon</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 02 (Coming Soon structure) -->
+          <div class="project-card" data-category="apps">
+            <div class="project-thumbnail">
+              <div class="project-thumb-fallback">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+                <span>SaaS System</span>
+              </div>
+              <span class="project-status-tag" data-i18n="status_coming_soon">In Architecture — Coming Soon</span>
+            </div>
+            <div class="project-body">
+              <div class="project-category">Productivity Tool</div>
+              <h3 class="project-name" data-i18n="proj_2_name">Productivity SaaS Suite</h3>
+              <p class="project-desc" data-i18n="proj_2_desc">
+                A focused suite engineered to empower entrepreneurs, creators, and students to streamline daily execution.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Tailwind</span>
+                <span class="tech-tag">REST API</span>
+              </div>
+              <div class="project-actions">
+                <span class="project-link-btn disabled" data-i18n="btn_view_details">Details Coming Soon</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 03 (Coming Soon structure) -->
+          <div class="project-card" data-category="tools">
+            <div class="project-thumbnail">
+              <div class="project-thumb-fallback">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                <span>Digital Media Hub</span>
+              </div>
+              <span class="project-status-tag" data-i18n="status_coming_soon">In Architecture — Coming Soon</span>
+            </div>
+            <div class="project-body">
+              <div class="project-category">Content Network</div>
+              <h3 class="project-name" data-i18n="proj_3_name">Community & Media Hub</h3>
+              <p class="project-desc" data-i18n="proj_3_desc">
+                An interactive digital hub connecting creators with high-value educational resources and collaborative opportunities.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">UI Systems</span>
+              </div>
+              <div class="project-actions">
+                <span class="project-link-btn disabled" data-i18n="btn_view_details">Details Coming Soon</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         8. BUSINESS SECTION
+         ====================================================================== -->
+    <section class="section" id="business" aria-label="Business Section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow" data-i18n="biz_eyebrow">Venture Portfolio</div>
+          <h2 class="section-title" data-i18n="biz_title">Building for the Future</h2>
+          <p class="section-subtitle" data-i18n="biz_sub">
+            A dedicated foundation engineered to incubate, scale, and manage future business brands and technology companies.
+          </p>
+        </div>
+
+        <div class="business-banner-card">
+          <div class="business-card-inner">
+            <div class="business-tag" data-i18n="biz_tag">Future Ventures — Coming Soon</div>
+            <h3 class="business-title" data-i18n="biz_head">From Prototype to Enterprise</h3>
+            <p class="business-desc" data-i18n="biz_desc">
+              This dedicated hub is architected to showcase future registered businesses, commercial software products, and collaborative holding entities as they launch into the market.
+            </p>
+
+            <div class="business-pillars-grid">
+              <div class="biz-item">
+                <h4 data-i18n="biz_col_1_title">Digital Products</h4>
+                <p data-i18n="biz_col_1_desc">Scalable SaaS, mobile applications, and consumer software.</p>
+              </div>
+              <div class="biz-item">
+                <h4 data-i18n="biz_col_2_title">E-Commerce & Brands</h4>
+                <p data-i18n="biz_col_2_desc">Customer-centric lifestyle and technology brands.</p>
+              </div>
+              <div class="biz-item">
+                <h4 data-i18n="biz_col_3_title">Strategic Consulting</h4>
+                <p data-i18n="biz_col_3_desc">Digital transformation, UI/UX systems, and product advisory.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         9. CONTENT / MEDIA SECTION
+         ====================================================================== -->
+    <section class="section" id="media" aria-label="Content & Media Section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow" data-i18n="media_eyebrow">Digital Footprint</div>
+          <h2 class="section-title" data-i18n="media_title">Content & Media</h2>
+          <p class="section-subtitle" data-i18n="media_sub">
+            Follow official channels for genuine behind-the-scenes insights, updates, and technological discussions.
+          </p>
+        </div>
+
+        <div class="social-cards-grid">
+          <!-- Facebook Card -->
+          <a href="https://www.facebook.com/sajibnofficial" target="_blank" rel="noopener noreferrer" class="social-card">
+            <div>
+              <div class="social-card-top">
+                <div class="social-icon-box" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </div>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+              </div>
+              <h3 class="social-platform-name" data-i18n="media_fb_name">Facebook</h3>
+              <div class="social-handle" data-i18n="media_fb_handle">@sajibnofficial</div>
+              <p class="social-desc" data-i18n="media_fb_desc">Official personal profile and community updates.</p>
+            </div>
+            <div class="social-card-action">
+              <span data-i18n="btn_visit_channel">Visit Profile</span>
+              <span aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <!-- Instagram Card -->
+          <a href="https://www.instagram.com/sajib__eth" target="_blank" rel="noopener noreferrer" class="social-card">
+            <div>
+              <div class="social-card-top">
+                <div class="social-icon-box" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </div>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+              </div>
+              <h3 class="social-platform-name" data-i18n="media_ig_name">Instagram</h3>
+              <div class="social-handle" data-i18n="media_ig_handle">@sajib__eth</div>
+              <p class="social-desc" data-i18n="media_ig_desc">Visual stories, lifestyle, aesthetic curation, and real-time updates.</p>
+            </div>
+            <div class="social-card-action">
+              <span data-i18n="btn_visit_channel">Visit Profile</span>
+              <span aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <!-- YouTube Card (Coming Soon) -->
+          <div class="social-card disabled">
+            <div>
+              <div class="social-card-top">
+                <div class="social-icon-box" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><polygon points="10 15 15 12 10 9 10 15"/></svg>
+                </div>
+                <span class="project-status-tag" style="position: static;" data-i18n="btn_coming_soon">Coming Soon</span>
+              </div>
+              <h3 class="social-platform-name" data-i18n="media_yt_name">YouTube</h3>
+              <div class="social-handle" data-i18n="media_yt_handle">Channel Launching Soon</div>
+              <p class="social-desc" data-i18n="media_yt_desc">Long-form tech builds, entrepreneurial insights, and educational video essays.</p>
+            </div>
+            <div class="social-card-action" style="color: var(--text-muted);">
+              <span data-i18n="btn_coming_soon">Coming Soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         10. ACHIEVEMENTS SECTION
+         ====================================================================== -->
+    <section class="section" id="achievements" aria-label="Achievements Section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow" data-i18n="achieve_eyebrow">Recognitions & Certificates</div>
+          <h2 class="section-title" data-i18n="achieve_title">Achievements</h2>
+          <p class="section-subtitle" data-i18n="achieve_sub">
+            A transparent log of milestone accomplishments, verifiable credentials, and honors.
+          </p>
+        </div>
+
+        <div class="achievements-card">
+          <div class="achievements-placeholder-box">
+            <div class="achievements-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <h3 class="service-title" style="margin-bottom: 8px;" data-i18n="achieve_box_title">The Journey is Just Beginning</h3>
+            <p class="achievements-note" data-i18n="achieve_box_desc">
+              Achievements and verified credentials will be systematically added as milestones are completed. No exaggerated or artificial claims are made.
+            </p>
+
+            <div class="achievements-schema-preview" aria-label="Future Certificate Schema">
+              <div class="schema-slot">
+                <strong data-i18n="achieve_field_1">Credential Title</strong>
+                <span>Title of honor/course</span>
+              </div>
+              <div class="schema-slot">
+                <strong data-i18n="achieve_field_2">Issuing Entity</strong>
+                <span>University or organization</span>
+              </div>
+              <div class="schema-slot">
+                <strong data-i18n="achieve_field_3">Verification Date</strong>
+                <span>Month & year</span>
+              </div>
+              <div class="schema-slot">
+                <strong data-i18n="achieve_field_4">Official Certificate ID</strong>
+                <span>Direct link or credential key</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         11. GALLERY SECTION (With Lightbox)
+         ====================================================================== -->
+    <section class="section" id="gallery" aria-label="Gallery Section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow" data-i18n="gallery_eyebrow">Visual Archive</div>
+          <h2 class="section-title" data-i18n="gallery_title">Gallery</h2>
+          <p class="section-subtitle" data-i18n="gallery_sub">
+            High-resolution photographs capturing official portraits, studio moments, and creative milestones.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Gallery Item 1: Official Studio Portrait -->
+          <div class="gallery-item" tabindex="0" role="button" aria-label="View official portrait in full size">
+            <img 
+              src="./assets/images/profile.jpg" 
+              alt="M. Sajib official portrait in dark studio" 
+              class="gallery-img"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-title">M. Sajib — Official Identity</div>
+              <div class="gallery-caption" data-i18n="gallery_cap_1">Official Studio Portrait — Studio lighting & dark backdrop.</div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 2: Executive Portrait Framing -->
+          <div class="gallery-item" tabindex="0" role="button" aria-label="View identity frame in full size">
+            <img 
+              src="./assets/images/profile.jpg" 
+              alt="M. Sajib executive frame" 
+              class="gallery-img"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-title">Executive Presence</div>
+              <div class="gallery-caption" data-i18n="gallery_cap_2">Executive Identity Portrait — Frontal focus & poised presence.</div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 3: Studio Session Frame -->
+          <div class="gallery-item" tabindex="0" role="button" aria-label="View studio frame in full size">
+            <img 
+              src="./assets/images/profile.jpg" 
+              alt="M. Sajib focused session" 
+              class="gallery-img"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-title">Builder Focus</div>
+              <div class="gallery-caption" data-i18n="gallery_cap_3">Creative Session Frame — Dedicated to focused execution.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Image Preview Lightbox">
+      <div class="lightbox-content">
+        <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close image preview">✕</button>
+        <img src="./assets/images/profile.jpg" alt="" class="lightbox-img" id="lightboxImg" />
+        <div class="lightbox-info">
+          <h3 id="lightboxTitle"></h3>
+          <p id="lightboxCap"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================================================================
+         12. CONTACT SECTION
+         ====================================================================== -->
+    <section class="section" id="contact" aria-label="Contact Section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow" data-i18n="contact_eyebrow">Direct Communication</div>
+          <h2 class="section-title" data-i18n="contact_title">Let's Connect</h2>
+          <p class="section-subtitle" data-i18n="contact_sub">
+            Have an idea, opportunity, or something meaningful to discuss? Let's connect.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Official Verified Channels -->
+          <div class="contact-channels">
+            <!-- WhatsApp -->
+            <a href="https://wa.me/01897874421" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+              <div class="channel-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="channel-info">
+                <h4 data-i18n="channel_wa_title">WhatsApp</h4>
+                <p data-i18n="channel_wa_sub">+880 1897-874421 (Fastest Response)</p>
+              </div>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/sajibnofficial" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+              <div class="channel-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </div>
+              <div class="channel-info">
+                <h4 data-i18n="channel_fb_title">Facebook Messenger</h4>
+                <p data-i18n="channel_fb_sub">sajibnofficial</p>
+              </div>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/sajib__eth" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+              <div class="channel-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </div>
+              <div class="channel-info">
+                <h4 data-i18n="channel_ig_title">Instagram DM</h4>
+                <p data-i18n="channel_ig_sub">@sajib__eth</p>
+              </div>
+            </a>
+
+            <!-- Email Placeholder (Preserved accurately) -->
+            <div class="contact-channel-card" style="opacity: 0.85;">
+              <div class="channel-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="channel-info">
+                <h4 data-i18n="channel_email_title">Official Email</h4>
+                <p data-i18n="channel_email_sub">Email — Coming Soon</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Static Action-Ready Contact Form UI -->
+          <div class="contact-form-card">
+            <form id="contactForm" onsubmit="return false;">
+              <div class="form-group">
+                <label for="contactName" class="form-label" data-i18n="form_name_label">Your Name</label>
+                <input 
+                  type="text" 
+                  id="contactName" 
+                  class="form-control" 
+                  placeholder="Enter your full name" 
+                  data-i18n-attr="placeholder:form_name_ph" 
+                  required 
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="contactTopic" class="form-label" data-i18n="form_topic_label">Inquiry Topic</label>
+                <select id="contactTopic" class="form-control">
+                  <option value="general" data-i18n="form_topic_opt1">General Inquiry / Say Hello</option>
+                  <option value="business" data-i18n="form_topic_opt2">Partnership / Business Opportunity</option>
+                  <option value="app" data-i18n="form_topic_opt3">App / Technology Discussion</option>
+                  <option value="media" data-i18n="form_topic_opt4">Media / Content Collaboration</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label" data-i18n="form_msg_label">Your Message</label>
+                <textarea 
+                  id="contactMessage" 
+                  class="form-control" 
+                  placeholder="Write your message here..." 
+                  data-i18n-attr="placeholder:form_msg_ph" 
+                  rows="4" 
+                  required
+                ></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button type="button" class="btn btn-primary" id="btnSendWA" data-i18n="btn_send_wa">
+                  Send via WhatsApp
+                </button>
+                <button type="button" class="btn btn-secondary" id="btnCopyMsg" data-i18n="btn_copy_msg">
+                  Copy Message to Clipboard
+                </button>
+              </div>
+
+              <div class="toast-msg" id="toastMsg" role="status"></div>
+
+              <p class="form-notice" data-i18n="form_notice_text">
+                Static site note: Clicking WhatsApp opens a pre-composed direct chat. You can also copy your message with one click.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">M. SAJIB</div>
+          <p class="footer-tagline" data-i18n="footer_bio">
+            The official personal brand website of M. Sajib. Dedicated to high-leverage learning, building scalable ideas, and driving real-world impact.
+          </p>
+          <div class="footer-socials" aria-label="Social Media Links">
+            <a href="https://wa.me/01897874421" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/sajibnofficial" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/sajib__eth" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="font-size: 0.8125rem; font-weight: 700; color: #FFFFFF; text-transform: uppercase; letter-spacing: 0.08em;">Quick Links</div>
+          <div style="display: flex; flex-wrap: wrap; gap: 10px 18px; font-size: 0.875rem; color: var(--text-secondary);">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#journey">Journey</a>
+            <a href="#what-i-do">What I Do</a>
+            <a href="#projects">Projects</a>
+            <a href="#business">Business</a>
+            <a href="#media">Media</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div data-i18n="footer_rights">© 2026 M. Sajib. All rights reserved. Designed with zero compromises.</div>
+        <div>
+          <span>Tagline: </span>
+          <strong style="color: var(--accent-blue);" data-i18n="hero_tagline">Building Ideas. Creating Impact.</strong>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Interactive JavaScript Engine -->
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="blueGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#090A0F"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bgGlow)" stroke="#1E293B" stroke-width="1.5"/>
+  <!-- Modern Geometric Monogram 'S' & 'M' -->
+  <path d="M18 44V20L28 34L38 20V44" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 22H36C33.7909 22 32 23.7909 32 26C32 28.2091 33.7909 30 36 30H42C44.2091 30 46 31.7909 46 34C46 36.2091 44.2091 38 42 38H32" fill="none" stroke="url(#blueGlow)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="48" cy="18" r="3" fill="#3B82F6"/>
+</svg>
